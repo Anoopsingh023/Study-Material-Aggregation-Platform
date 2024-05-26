@@ -1,0 +1,14 @@
+.about_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3rem auto;
+}
+
+.about_header p{
+    padding: 1% 10%;
+}
+.about_header h2{
+    margin-bottom: 2rem;
+}

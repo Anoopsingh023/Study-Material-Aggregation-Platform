@@ -1,0 +1,22 @@
+.notice_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.college_notice{
+    margin: 3rem;
+    padding: 1rem;
+    border: 2px solid #2e3267;
+}
+
+.society_notice{
+    margin: 3rem;
+    padding: 1rem;
+    border: 2px solid #2e3267;
+}
+
+h3{
+    margin: 1rem;
+}

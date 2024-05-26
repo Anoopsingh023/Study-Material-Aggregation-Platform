@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raise.com</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/path.css">
+
+
+    <!-- =======Font Family======== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="container nav_container">
+            <a href="index.html">
+                <h4 id="raise">RAISE</h4>
+            </a>
+            <ul class="nav_menu">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="https://drive.google.com/folderview?id=1Z4VJzL9E_LnsSsYLJAdAU8Zd8giP6EF4">Notes</a></li>
+                <li> <a href="path.html">Path</a></li>
+                <li> <a href="notice.html">Notices</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+                <li> <a href="about.html">About us</a></li>
+                <!-- <li> <a href="login.html">Login</a></li> -->
+            </ul>
+            <!-- <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button> -->
+        </div>
+    </nav>
+
+    <!-- ===================END OF NAV BAR================= -->
+
+
+
+    <section class="paths">
+        <div class="path_header">
+            <h2>Path</h2>
+            <p>There are sources to achive your goal</p>
+        </div>
+        <div class="container path_container">
+            <article class="path">
+                <h5>Web Development</h5>
+                <h6>Frontend</h6>
+                <p>HTML + CSS + JavaScript</p>
+                <h6>Backend</h6>
+                <p>NodeJS + MongoDB or <br> PHP + MYSQL or <br> Python + Django + Java</p>
+                <button type="submit" class="btn  " onclick="openPopup()">Learn Now</button>
+            </article>
+            <article class="path">
+                <h5>Android Development</h5>
+                <h6>Frontend</h6>
+                <p>XML</p>
+                <h6>Backend</h6>
+                <p>Java + Kotlin</p>
+                <button type="submit" class="btn" onclick="openPopupApp()">Learn Now</button>
+            </article>
+            <article class="path">
+                <h5>Software Development</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, ipsam.</p>
+                <button type="submit" class="btn" onclick="openPopupSoftware()">Learn Now</button>
+            </article>
+            <article class="path">
+                <h5>Graphic Designing</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, ipsam.</p>
+                <button type="submit" class="btn" onclick="openPopupGraphic()">Learn Now</button>
+            </article>
+            <article class="path">
+                <h5>Photo Editing</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, ipsam.</p>
+                <button type="submit" class="btn" onclick="openPopupPhoto()">Learn Now</button>
+            </article>
+            <article class="path">
+                <h5>Video Editing</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, ipsam.</p>
+                <button type="submit" class="btn" onclick="openPopupVideo()">Learn Now</button>
+            </article>
+        </div>
+    </section>
+
+
+    <!-- =================Web Popup=====================  -->
+
+
+    <div class="popup-content" id="popup">
+        <i class="uil uil-times-circle" onclick="closePopup()"></i>
+        <div class="popup-container">
+            <h5>YouTube Channels</h5>
+            <ul class="youtube">
+                <li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"
+                        target="_blank">Code with Harry</a></li>
+                <li><a href="https://www.youtube.com/@OnlineTutorialsYT/playlists" target="_blank">Online tutorial</a>
+                </li>
+                <li><a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
+                        target="_blank">Apna College</a></li>
+                <li><a href="https://www.youtube.com/@EasyTutorialsVideo" target="_blank">Easy Tutorial</a></li>
+                <li><a href="https://www.youtube.com/@wscubetech" target="_blank">WsCube Tech</a></li>
+                <li><a href="https://www.youtube.com/watch?v=ZxKM3DCV2kE" target="_blank">Codedamn</a></li>
+            </ul>
+        </div>
+        <div class="popup-container">
+            <h5>Websites</h5>
+            <ul class="youtube">
+                <li><a href="https://www.w3schools.com/html/" target="_blank">w3schools</a></li>
+                <li><a href="https://www.geeksforgeeks.org/html/?ref=lbp" target="_blank">Geeksforgeeks</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Plus</a></li>
+                <li><a href="https://www.javatpoint.com/html-tutorial" target="_blank">javatpoint</a></li>
+                <li><a href="https://html.com/cheat-sheet/" target="_blank">html.com</a></li>
+                <!-- <li><a href="#"target="_blank"></a></li> -->
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- =================Android Popup=====================  -->
+
+    <div class="popupApp" id="popupApp">
+        <i class="uil uil-times-circle" onclick="closePopupApp()"></i>
+        <div class="popup-container">
+            <h5>YouTube Channels</h5>
+            <ul class="youtube">
+                <li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"
+                        target="_blank">Code with Harry</a></li>
+                <li><a href="#" target="_blank">Online tutorial</a></li>
+                <li><a href="#" target="_blank">UM Tutorial</a></li>
+                <li><a href="#" target="_blank">Tutorial</a></li>
+                <li><a href="#" target="_blank">App</a></li>
+                <li><a href="#" target="_blank">Name</a></li>
+            </ul>
+        </div>
+        <div class="popup-container">
+            <h5>Websites</h5>
+            <ul class="youtube">
+                <li><a href="#" target="_blank">Code with Harry</a></li>
+                <li><a href="#" target="_blank">Online tutorial</a></li>
+                <li><a href="#" target="_blank">UM Tutorial</a></li>
+                <li><a href="#" target="_blank">Easy Tutorial</a></li>
+                <li><a href="#" target="_blank">Web</a></li>
+                <li><a href="#" target="_blank">Name</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- =================Software Popup=====================  -->
+
+    <div class="popupSoftware" id="popupSoftware">
+        <i class="uil uil-times-circle" onclick="closePopupSoftware()"></i>
+        <div class="popup-container">
+            <h5>YouTube Channels</h5>
+            <ul class="youtube">
+                <li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"
+                        target="_blank">Code with Harry</a></li>
+                <li><a href="#" target="_blank">Online tutorial</a></li>
+                <li><a href="#" target="_blank">UM Tutorial</a></li>
+                <li><a href="#" target="_blank">Tutorial</a></li>
+                <li><a href="#" target="_blank">Software</a></li>
+                <li><a href="#" target="_blank">Name</a></li>
+            </ul>
+        </div>
+        <div class="popup-container">
+            <h5>Websites</h5>
+            <ul class="youtube">
+                <li><a href="#" target="_blank">Code with Harry</a></li>
+                <li><a href="#" target="_blank">Online tutorial</a></li>
+                <li><a href="#" target="_blank">UM Tutorial</a></li>
+                <li><a href="#" target="_blank">Easy Tutorial</a></li>
+                <li><a href="#" target="_blank">Web</a></li>
+                <li><a href="#" target="_blank">Name</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- =================Graphic Popup=====================  -->
+
+    <div class="popupGraphic" id="popupGraphic">
+        <i class="uil uil-times-circle" onclick="closePopupGraphic()"></i>
+        <div class="popup-container">
+            <h5>YouTube Channels</h5>
+            <ul class="youtube">
+                <li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"
+                        target="_blank">Code with Harry</a></li>
+                <li><a href="#" target="_blank">Online tutorial</a></li>
+                <li><a href="#" target="_blank">UM Tutorial</a></li>
+                <li><a href="#" target="_blank">Tutorial</a></li>
+                <li><a href="#" target="_blank">Graphic</a></li>
+                <li><a href="#" target="_blank">Name</a></li>
+            </ul>
+        </div>
+        <div class="popup-container">
+            <h5>Websites</h5>
+            <ul class="youtube">
+                <li><a href="#" target="_blank">Code with Harry</a></li>
+                <li><a href="#" target="_blank">Online tutorial</a></li>
+                <li><a href="#" target="_blank">UM Tutorial</a></li>
+                <li><a href="#" target="_blank">Easy Tutorial</a></li>
+                <li><a href="#" target="_blank">Web</a></li>
+                <li><a href="#" target="_blank">Name</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- =================Photo Popup=====================  -->
+
+    <div class="popupPhoto" id="popupPhoto">
+        <i class="uil uil-times-circle" onclick="closePopupPhoto()"></i>
+        <div class="popup-container">
+            <h5>YouTube Channels</h5>
+            <ul class="youtube">
+                <li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"
+                        target="_blank">Code with Harry</a></li>
+                <li><a href="#" target="_blank">Online tutorial</a></li>
+                <li><a href="#" target="_blank">UM Tutorial</a></li>
+                <li><a href="#" target="_blank">Tutorial</a></li>
+                <li><a href="#" target="_blank">Photo</a></li>
+                <li><a href="#" target="_blank">Name</a></li>
+            </ul>
+        </div>
+        <div class="popup-container">
+            <h5>Websites</h5>
+            <ul class="youtube">
+                <li><a href="#" target="_blank">Code with Harry</a></li>
+                <li><a href="#" target="_blank">Online tutorial</a></li>
+                <li><a href="#" target="_blank">UM Tutorial</a></li>
+                <li><a href="#" target="_blank">Easy Tutorial</a></li>
+                <li><a href="#" target="_blank">Web</a></li>
+                <li><a href="#" target="_blank">Name</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- =================Video Popup=====================  -->
+
+    <div class="popupVideo" id="popupVideo">
+        <i class="uil uil-times-circle" onclick="closePopupVideo()"></i>
+        <div class="popup-container">
+            <h5>YouTube Channels</h5>
+            <ul class="youtube">
+                <li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"
+                        target="_blank">Code with Harry</a></li>
+                <li><a href="#" target="_blank">Online tutorial</a></li>
+                <li><a href="#" target="_blank">UM Tutorial</a></li>
+                <li><a href="#" target="_blank">Tutorial</a></li>
+                <li><a href="#" target="_blank">Video</a></li>
+                <li><a href="#" target="_blank">Name</a></li>
+            </ul>
+        </div>
+        <div class="popup-container">
+            <h5>Websites</h5>
+            <ul class="youtube">
+                <li><a href="#" target="_blank">Code with Harry</a></li>
+                <li><a href="#" target="_blank">Online tutorial</a></li>
+                <li><a href="#" target="_blank">UM Tutorial</a></li>
+                <li><a href="#" target="_blank">Easy Tutorial</a></li>
+                <li><a href="#" target="_blank">Web</a></li>
+                <li><a href="#" target="_blank">Name</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- =================Footer=====================  -->
+
+
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="raise.html" class="footer_logo">
+                    <h4>RAISE</h4>
+                </a>
+                <p>A one stop destination for students and teachers. Here teachers can share notes with students and can make announcements.</p>
+            </div>
+
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li> <a href="https://drive.google.com/folderview?id=1Z4VJzL9E_LnsSsYLJAdAU8Zd8giP6EF4">Notes</a>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Condition</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+91 846 518 7345</p>
+                    <p>raise123@gmail.com</p>
+                </div>
+
+                <ul class="footer_socials">
+                    <li><a href="#"> <i class="uil uil-facebook-f"></i></a></li>
+                    <li><a href="#"> <i class="uil uil-instagram"></i></a></li>
+                    <li><a href="#"> <i class="uil uil-twitter"></i></a></li>
+                    <li><a href="#"><i class="uil uil-linkedin"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer_copyright">
+            <small>Copyright &copy; RAISE project</small>
+        </div>
+    </footer>
+
+
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

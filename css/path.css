@@ -1,0 +1,405 @@
+.paths{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: var(--color-bg1); */
+}
+
+.paths h2{
+    margin-bottom: 1rem;
+    font-size: 2.8rem;
+}
+
+.path_header p{
+    margin-bottom: 6rem;
+}
+
+
+.path_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.path{
+    background: var(--color-bg2);
+    border: 1px solid transparent;
+    padding: 3rem;
+    border-radius: 3rem;
+    transition: var(--transition);
+}
+
+.path:hover {
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.3);
+    z-index : 1;
+}
+
+.path h5 {
+    font-size: 1.5rem;
+    /* padding-right: 7rem; */
+    margin: 0 0 1rem;
+}
+
+.path h6{
+    font-size: 1rem;
+}
+
+.path p {
+    font-size: 0.85rem;
+    margin: 0 0 1rem;
+}
+
+
+/* ==================Web Popup =============== */
+
+.popup-content{
+    width: 600px;
+    height: 600px;
+    background: var(--color-primary);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 12;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+
+.open-popup{
+    visibility: visible;
+    top: 53%;
+    transform: translate(-50%, -50%) scale(1);
+
+}
+
+.popup-content h5  {
+    font-size: 1.5rem;
+    margin: 1rem auto 0.5rem;
+    margin: 1rem 3rem;
+
+}
+
+
+.popup-content li{
+    border: 1px solid transparent;
+    background: var(--color-bg2);
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    margin: 1rem 2rem ;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.popup-content ul :hover{
+    background: var(--color-bg);
+}
+
+
+.popup-content .uil-times-circle{
+    position: absolute;
+    top: -6%;
+    left: 97%;
+    font-size: 41px;
+    cursor: pointer;
+}
+
+
+    /* =================App Popup===================== */
+
+.popupApp{
+    width: 600px;
+    height: 600px;
+    background: var(--color-primary);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 12;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+
+.popupApp h5  {
+    font-size: 1.5rem;
+    margin: 1rem auto 0.5rem;
+    margin: 1rem 3rem;
+
+}
+
+
+.popupApp li{
+    border: 1px solid transparent;
+    background: var(--color-bg2);
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    margin: 1rem 2rem ;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.popupApp ul :hover{
+    background: var(--color-bg);
+}
+
+.open-popupApp{
+    visibility: visible;
+    top: 53%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+.popupApp .uil-times-circle{
+    position: absolute;
+    top: -6%;
+    left: 97%;
+    font-size: 41px;
+    cursor: pointer;
+}
+
+
+/* =================Software Popup===================== */
+
+.popupSoftware{
+    width: 600px;
+    height: 600px;
+    background: var(--color-primary);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 12;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+
+.popupSoftware h5  {
+    font-size: 1.5rem;
+    margin: 1rem auto 0.5rem;
+    margin: 1rem 3rem;
+
+}
+
+
+.popupSoftware li{
+    border: 1px solid transparent;
+    background: var(--color-bg2);
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    margin: 1rem 2rem ;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.popupSoftware ul :hover{
+    background: var(--color-bg);
+}
+
+.open-popupSoftware{
+    visibility: visible;
+    top: 53%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+.popupSoftware .uil-times-circle{
+    position: absolute;
+    top: -6%;
+    left: 97%;
+    font-size: 41px;
+    cursor: pointer;
+}
+
+
+    /* =================Graphic Popup===================== */
+
+    .popupGraphic{
+        width: 600px;
+        height: 600px;
+        background: var(--color-primary);
+        border-radius: 6px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.1);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        z-index: 12;
+        visibility: hidden;
+        transition: transform 0.4s, top 0.4s;
+    }
+    
+    
+    .popupGraphic h5  {
+        font-size: 1.5rem;
+        margin: 1rem auto 0.5rem;
+        margin: 1rem 3rem;
+    
+    }
+    
+    
+    .popupGraphic li{
+        border: 1px solid transparent;
+        background: var(--color-bg2);
+        border-radius: 2rem;
+        padding: 1rem 3rem;
+        margin: 1rem 2rem ;
+        transition: var(--transition);
+        cursor: pointer;
+    }
+    
+    .popupGraphic ul :hover{
+        background: var(--color-bg);
+    }
+    
+    .open-popupGraphic{
+        visibility: visible;
+        top: 83%;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    
+    
+    .popupGraphic .uil-times-circle{
+        position: absolute;
+        top: -6%;
+        left: 97%;
+        font-size: 41px;
+        cursor: pointer;
+    }
+
+    
+    /* =================Photo Popup===================== */
+
+.popupPhoto{
+    width: 600px;
+    height: 600px;
+    background: var(--color-primary);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 12;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+
+.popupPhoto h5  {
+    font-size: 1.5rem;
+    margin: 1rem auto 0.5rem;
+    margin: 1rem 3rem;
+
+}
+
+
+.popupPhoto li{
+    border: 1px solid transparent;
+    background: var(--color-bg2);
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    margin: 1rem 2rem ;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.popupPhoto ul :hover{
+    background: var(--color-bg);
+}
+
+.open-popupPhoto{
+    visibility: visible;
+    top: 83%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+.popupPhoto .uil-times-circle{
+    position: absolute;
+    top: -6%;
+    left: 97%;
+    font-size: 41px;
+    cursor: pointer;
+}
+
+
+    /* =================Video Popup===================== */
+
+    .popupVideo{
+        width: 600px;
+        height: 600px;
+        background: var(--color-primary);
+        border-radius: 6px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.1);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        z-index: 12;
+        visibility: hidden;
+        transition: transform 0.4s, top 0.4s;
+    }
+    
+    
+    .popupVideo h5  {
+        font-size: 1.5rem;
+        margin: 1rem auto 0.5rem;
+        margin: 1rem 3rem;
+    
+    }
+    
+    
+    .popupVideo li{
+        border: 1px solid transparent;
+        background: var(--color-bg2);
+        border-radius: 2rem;
+        padding: 1rem 3rem;
+        margin: 1rem 2rem ;
+        transition: var(--transition);
+        cursor: pointer;
+    }
+    
+    .popupVideo ul :hover{
+        background: var(--color-bg);
+    }
+    
+    .open-popupVideo{
+        visibility: visible;
+        top: 83%;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    
+    
+    .popupVideo .uil-times-circle{
+        position: absolute;
+        top: -6%;
+        left: 97%;
+        font-size: 41px;
+        cursor: pointer;
+    }

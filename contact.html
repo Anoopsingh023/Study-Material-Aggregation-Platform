@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raise.com</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+
+    <!-- =======Font Family======== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="container nav_container">
+            <a href="index.html">
+                <h4 id="raise">RAISE</h4>
+            </a>
+            <ul class="nav_menu">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="https://drive.google.com/folderview?id=1Z4VJzL9E_LnsSsYLJAdAU8Zd8giP6EF4">Notes</a></li>
+                <li> <a href="path.html">Path</a></li>
+                <li> <a href="notice.html">Notices</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+                <li> <a href="about.html">About us</a></li>
+                <!-- <li> <a href="login.html">Login</a></li> -->
+            </ul>
+            <!-- <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button> -->
+        </div>
+    </nav>
+
+    <!-- ===================END OF NAV BAR================= -->
+
+
+    
+
+
+    
+    <div class="container contact_container">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>feedback</h3>
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email id" required>
+            <input type="text" id="number" placeholder="Phone no" required>
+            <textarea id="message" rows="4" placeholder="Enter the message"></textarea>
+            <button class="btn " type="submit">submit</button>
+        </form>
+    </div>
+
+      <!-- ====================END OF contact================== -->
+
+
+
+
+<!-- ============ footer ============= -->
+
+    
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="raise.html" class="footer_logo">
+                    <h4>RAISE</h4>
+                </a>
+                <p>A one stop destination for students and teachers. Here teachers can share notes with students and can make announcements.</p>
+            </div>
+
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li> <a href="https://drive.google.com/folderview?id=1Z4VJzL9E_LnsSsYLJAdAU8Zd8giP6EF4">Notes</a></li>
+                     <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Condition</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+91 846 518 7345</p>
+                    <p>raise123@gmail.com</p>
+                </div>
+
+                <ul class="footer_socials">
+                    <li><a href="#"> <i class="uil uil-facebook-f"></i></a></li>
+                    <li><a href="#"> <i class="uil uil-instagram"></i></a></li>
+                    <li><a href="#"> <i class="uil uil-twitter"></i></a></li>
+                    <li><a href="#"><i class="uil uil-linkedin"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer_copyright">
+            <small>Copyright &copy; RAISE project</small>
+        </div>
+    </footer>
+
+
+
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

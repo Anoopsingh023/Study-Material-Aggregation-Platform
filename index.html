@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>study material</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- =======Font Family======== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+
+
+
+<body>
+    <nav id="navbar">
+        <div class="container nav_container">
+            <a href="index.html">
+                <h4 id="raise">RAISE</h4>
+            </a>
+            <ul class="nav_menu">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="https://drive.google.com/folderview?id=1Z4VJzL9E_LnsSsYLJAdAU8Zd8giP6EF4">Notes</a></li>
+                <li> <a href="path.html">Path</a></li>
+                <li> <a href="notice.html">Notices</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+                <li> <a href="about.html">About us</a></li>
+                <!-- <li> <a href="login.html">Login</a></li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ===================END OF NAV BAR================= -->
+
+
+    <header>
+        <div class="container header_container">
+            <div class="header_left">
+                <h1>Welcome to Raise</h1>
+                <p>
+                    A one stop destination for students and teachers. Here teachers can share notes with students and can make announcements.
+                </p>
+                <a href="https://drive.google.com/folderview?id=1Z4VJzL9E_LnsSsYLJAdAU8Zd8giP6EF4"
+                    class="btn btn-primary">Get Notes </a>
+            </div>
+
+            <div class="header_right">
+                <div class="header_right_image">
+                    <img src="./img/pg3.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ====================END OF HEADER================== -->
+
+
+    <section class="categories">
+        <div class="container categories_container">
+            <div class="categories_left">
+
+                <h1>Path</h1>
+                <p>
+                    Empowering your journey with expert guidance and innovative solutions every step of the way.
+                </p>
+                <a href="path.html" class="btn">Learn More</a>
+            </div>
+
+            
+
+            <div class="categories_right">
+                <article class="category">
+                    <span class="category_icon"></span>
+                    <h5>Web Development</h5>
+                    <p>Creating stunning, responsive websites tailored to your business needs.</p>
+                </article>
+                <article class="category">
+                    <span class="category_icon"></span>
+                    <h5>App Development</h5>
+                    <p>Building user-friendly, innovative apps customized for your business.</p>
+                </article>
+                <article class="category">
+                    <span class="category_icon"></span>
+                    <h5>Software Development</h5>
+                    <p>Crafting reliable, efficient software solutions tailored to your needs.</p>
+                </article>
+                <article class="category">
+                    <span class="category_icon"></span>
+                    <h5>Graphic Designing</h5>
+                    <p>Designing visually captivating graphics to enhance your brand's image.</p>
+                </article>
+                <article class="category">
+                    <span class="category_icon"></span>
+                    <h5>Photo Editing</h5>
+                    <p>Professional photo editing for flawless, impactful visuals.</p>
+                </article>
+                <article class="category">
+                    <span class="category_icon"></span>
+                    <h5>Video Editing</h5>
+                    <p>Expert video editing to create compelling, polished content.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================END OF Path================== -->
+
+
+    <section class="notices">
+        <h2>Notices</h2>
+        <div class="container notices_container">
+            <article class="notice">
+                <h4>Class Notices</h4>
+                <p>
+                    Stay updated with the latest class notices for important announcements, assignments, and schedule changes.
+                </p>
+                <a href="notice.html" class="btn btn-primary">Know More</a>
+            </article>
+
+            <article class="notice">
+                <h4>Society Events</h4>
+                <p>
+                    Join us for engaging society events, activities, and community gatherings. Stay informed and get involved!
+                </p>
+                <a href="notice.html" class="btn btn-primary">Know More</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- ====================END OF Notices================== -->
+
+
+    <div class="container contact_container">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>feedback</h3>
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email id" required>
+            <input type="text" id="number" placeholder="Phone no" required>
+            <textarea id="message" rows="4" placeholder="Enter the message"></textarea>
+            <button class="btn " type="submit">submit</button>
+        </form>
+    </div>
+
+    <!-- ====================END OF contact================== -->
+
+
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="raise.html" class="footer_logo">
+                    <h4>RAISE</h4>
+                </a>
+                <p>A one stop destination for students and teachers. Here teachers can share notes with students and can make announcements.</p>
+            </div>
+
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li> <a href="https://drive.google.com/folderview?id=1Z4VJzL9E_LnsSsYLJAdAU8Zd8giP6EF4">Notes</a>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Condition</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+91 846 518 7345</p>
+                    <p>raise123@gmail.com</p>
+                </div>
+
+                <ul class="footer_socials">
+                    <li><a href="#"> <i class="uil uil-facebook-f"></i></a></li>
+                    <li><a href="#"> <i class="uil uil-instagram"></i></a></li>
+                    <li><a href="#"> <i class="uil uil-twitter"></i></a></li>
+                    <li><a href="#"><i class="uil uil-linkedin"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer_copyright">
+            <small>Copyright &copy; RAISE project</small>
+        </div>
+    </footer>
+
+
+
+    <script src=" https://smtpjs.com/v3/smtp.js"></script> <!-- smtp script-->
+
+
+    <!-- ==================Email Script============= -->
+
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "anoopkumarsingh2003@gmail.com",
+                Password: "",
+                To: 'anoopkumarsingh023@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "New Feedback",
+                Body: "Name: " + document.getElementById("name").value
+                    + "<br> Email: " + document.getElementById("email").value
+                    + "<br> Phone no: " + document.getElementById("phone").value
+                    + "<br> Message: " + document.getElementById("message").value
+            }).then(
+                message => alert("Message Sent Succesfully")
+            );
+        }
+    </script> 
+
+
+
+
+    <script src="./main.js"></script> <!-- JavaScript  Folder-->
+
+</body>
+
+</html>
